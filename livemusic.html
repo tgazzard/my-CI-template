@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" >
     <title>Café Iach</title>
 </head>
@@ -24,52 +25,65 @@
     </div>
 
     <!--R-NAV-BAR-->
-    <div class="col-lg-8">
+    <div class="row no-gutters">g
+      <div class="col-md-8 col-lg-12">
       <nav id="menu">
-        <Ul id="nav" class="list-inline">
-          <li class="nav-item"><a href="#">Live Music</a></li>          
-          <li class="nav-item"><a href="#">Menu<i class="fas fa-download"></i></a></li>
-          <li class="nav-item"><a href="#">Testimonials</a></li>
-          <li class="nav-item"><a href="#">Contact Us</a></li>
+        <Ul id="nav" class="list-inline menucontainer">
+          <li class="nav-item"><a class="active" href="livemusic.html" class="hvr-underline-from-left">Live Music</a></li>          
+          <li class="nav-item"><a href="assets/menu/cimenu.pdf" target="_blank" class="hvr-underline-from-left">Menu<i class="fas fa-download"></i></a></li>
+          <li class="nav-item"><a href="reviews.html" class="hvr-underline-from-left">Reviews</a></li>
+          <li class="nav-item"><a href="contact.html" class="hvr-underline-from-left">Contact Us</a></li>
         </ul>
       </nav>
+      </div>
     </div>
 
     </div>
    
 </header>
 
-    <section id="hero-outer"> 
-			    <div class="container-fluid">
-      <div class="row">
-        <div id="hero-image">
-          <div id="cover-text">
-          <h2>"The greatest wealth is health"</h2>
-          <h3>Virgil</h3>
-          </div>
-          </div>
-        </div>
-        </div>
-      
-	
+<section>
 
-    <div class="container-fluid">
-    <div class="row">
+  <h1>Live music every month</h1>
+  <p>On the first Friday of every month we host live music at the Café. We are proud to support local artists.</p>
+  <p>Our schedule for 2022 is outlined below.</p>
+ 
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Month</th>
+      <th scope="col">Band</th>
+      <th scope="col">Handle</th>
+      <th scope="col"></th>
+ 
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">January</th>
+      <td>Jake LadyBugg</td>
+      <td>@JLB</td>
+      <td><img src="https://i.imgur.com/thB4mjp.jpg" alt="guitar image" class="img-thumbnail-1"></td>
 
-    <!--L-Intro Text-->
-    <div class="col-lg-8" id="about">
-      <h2>About Us</h2>
-      <p>We are a family-friendly local Café in the heart of Cardiff. Our aim is to provide a one-stop-shop for all your health and nutrition needs.</p>
-      <p>This isn't your typical local Café. <em>Not a bacon sandwich in sight!</em></p>
-      <p>Eating healthily shouldn't be boring! We'll show you how.</p>
-      </div>
-    <!--R-VIDEO-->
-    <div class="col-12 col-md-8 col-lg-4">
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/660698092?h=fde3cab997&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="cafvid.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-      </div>
-  	</section>
-    
+    </tr>
+    <tr>
+      <th scope="row">February</th>
+      <td>Jacob Jackson</td>
+      <td>@JJack</td>
+      <td><img src="https://i.imgur.com/4S7Tll5.jpg" alt="keyboard image" class="img-thumbnail-1"></td>
+
+    </tr>
+    <tr>
+      <th scope="row">March</th>
+      <td>Larry Lee</td>
+      <td>@TheLee</td>
+      <td><img src="https://i.imgur.com/AYY6kq0.jpg" alt="Singer" class="img-thumbnail-1"></td>
+
+    </tr>
+  </tbody>
+</table>
+
+    </section>
   <!--LOC-ADD-MAP-->
     <section id="location">
       <div class="container-fluid">
@@ -78,7 +92,7 @@
           
           <div class="col-lg-5">
             <br>
-            <h2>Opening Times</h2>
+            <h2><i class="fas fa-clock"></i>Opening Times</h2>
             <p>Monday - 9am-5pm<br>
                Tuesday - 9am-5pm<br>
                Wesneday - 9am-2pm<br>
@@ -91,7 +105,7 @@
           <div class="col-lg-3">
             <div>
               <br>
-              <h2><strong>Address:</strong></h2>
+              <h2><strong><i class="fas fa-map-marker-alt"></i>Address</strong></h2>
                   <p>Pierhead Street, Cardiff Bay, Cardiff.
                       <br>CF10 4PZ</p>
               </div>
@@ -109,6 +123,7 @@
 <!--FOOTER AREA-->
     <footer>
       <div class="container-fluid">
+        <br>
         <h3>Find us on social media . . . </h3>
 			  <ul id="social-net">
           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
